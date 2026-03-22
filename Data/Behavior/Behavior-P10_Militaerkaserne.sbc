@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Behavior-P10_Militaerkaserne</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [Triggers:PB-Trigger-P10_Militaerkaserne-Warn-1km]
+        [Triggers:PB-Trigger-P10_Militaerkaserne-Angriff-600m]
+        [Triggers:PB-Trigger-P10_Militaerkaserne-Schaden]
+        [Triggers:PB-Trigger-P10_Militaerkaserne-KampfEnde]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

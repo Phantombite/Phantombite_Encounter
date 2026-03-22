@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Behavior-P15_Piratenfestung</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [Triggers:PB-Trigger-P15_Piratenfestung-Warn-800m]
+        [Triggers:PB-Trigger-P15_Piratenfestung-Angriff-400m]
+        [Triggers:PB-Trigger-P15_Piratenfestung-Schaden]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

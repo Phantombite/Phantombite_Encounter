@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Chat-P14-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [Author:Schrottplatz]
+        [Color:White]
+        [BroadcastRandomly:true]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Augen auf!]
+        [ChatMessages:Nichts in Sicht. Wachsam bleiben!]
+        [ChatMessages:Willkommen, Freund!]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P14_Schrottplatz-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:500]
+
+        [StartsReady:true]
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:300000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P14-Ambient]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P14-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-P14-Ambient]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P1_Versorgungsposten</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P1_Versorgungsposten-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P1_Versorgungsposten">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P1_Versorgungsposten</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P2_Lagerdepot</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P2_Lagerdepot-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P2_Lagerdepot">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P2_Lagerdepot</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P3_Fertigungsanlage</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P3_Fertigungsanlage-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P3_Fertigungsanlage">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P3_Fertigungsanlage</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P4_Verarbeitungswerk</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P4_Verarbeitungswerk-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P4_Verarbeitungswerk">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P4_Verarbeitungswerk</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P5_Prospektion</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P5_Prospektion-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>3.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P5_Prospektion-Station">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P5_Prospektion</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P6_Erzverarbeitungsanlage</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P6_Erzverarbeitungsanlage-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P6_Erzverarbeitungsanlage">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P6_Erzverarbeitungsanlage</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

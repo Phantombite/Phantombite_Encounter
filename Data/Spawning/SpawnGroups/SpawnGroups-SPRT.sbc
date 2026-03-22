@@ -1,0 +1,96 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P7_Feldforschungsposten</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P7_Feldforschungsposten-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P7_Feldforschungsposten">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P7_Feldforschungsposten</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P8_Versandplattform</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P8_Versandplattform-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>2.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P8_Versandplattform">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P8_Versandplattform</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>PB-SpawnGroup-P9_RegionaleHauptquartier</SubtypeId>
+      </Id>
+      <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationLarge]
+
+        [FactionOverride:SPRT]
+        [ReplenishSystems:true]
+        [UseFirstConditionsAsPersistent:true]
+
+        [ManipulationProfiles:MES-Manipulation-RivalAi]
+        [ManipulationProfiles:PB-Manipulation-P9_RegionaleHauptquartier-Loot]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>1.0</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="P9_RegionaleHauptquartier">
+          <Position><X>0.0</X><Y>10.0</Y><Z>0.0</Z></Position>
+          <Speed>0</Speed>
+          <Behaviour>PB-Behavior-P9_RegionaleHauptquartier</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

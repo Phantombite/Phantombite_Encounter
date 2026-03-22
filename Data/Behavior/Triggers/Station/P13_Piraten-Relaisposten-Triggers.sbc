@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Chat-P13-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [Author:Piraten-Relaisposten]
+        [Color:Red]
+        [BroadcastRandomly:true]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Ziel in Sicht, wird Zeit rau zu werden – Drohnen losschicken!]
+        [ChatMessages:Sichtkontakt zum Ziel verloren. Weitersuchen!]
+        [ChatMessages:Unser Ziel leistet Widerstand!]
+        [ChatMessages:Sie brechen ein!]
+        [ChatMessages:Luftschleuse wird durchgeschalten.]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P13_Piraten-Relaisposten-Angriff-600m</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:600]
+
+        [StartsReady:true]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:90000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P13-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P13_Piraten-Relaisposten-Schaden</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
+
+        [StartsReady:true]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P13-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P13-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-P13-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

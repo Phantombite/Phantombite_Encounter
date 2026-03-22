@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-SmallCargo</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockSmallContainer]
+        [ContainerTypes:Militaer-CT-SmallCargo]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-Arsenal</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLockerRoom]
+        [ContainerTypes:Militaer-CT-Arsenal]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-WeaponRack</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockWeaponRack]
+        [ContainerTypes:Militaer-CT-WeaponRack]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P12_Militaerwachturm-Warn-1km</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:1000]
+
+        [StartsReady:true]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:180000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P12_Militaerwachturm-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P12_Militaerwachturm-Angriff-600m</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:600]
+
+        [StartsReady:true]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P12_Militaerwachturm-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P12_Militaerwachturm-Schaden</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
+
+        [StartsReady:true]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P12_Militaerwachturm-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P12_Militaerwachturm-KampfEnde</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:NoTarget]
+
+        [StartsReady:false]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P12_Militaerwachturm-Normal]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P12_Militaerwachturm-Warnung</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-Militaer-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P12_Militaerwachturm-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:Zeitschaltblock attac]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-Militaer-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P12_Militaerwachturm-Normal</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:Zeitschaltblock normal]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

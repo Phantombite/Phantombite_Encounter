@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- P1: SmallCargo, Schliessfach, Arsenal, Assembler, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P1_Versorgungsposten-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P2: SmallCargo, Schliessfach, Arsenal, WeaponRack, Assembler -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P2_Lagerdepot-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-WeaponRack]
+        [LootProfiles:VanillaStation-LP-Assembler]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P3: SmallCargo, Schliessfach, Arsenal, Assembler, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P3_Fertigungsanlage-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P4: SmallCargo, Schliessfach, Arsenal, Assembler, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P4_Verarbeitungswerk-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P5: SmallCargo, LargeCargo, Schliessfach, Arsenal, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P5_Prospektion-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-LargeCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P6: SmallCargo, Schliessfach, Arsenal, Assembler, Refinery, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P6_Erzverarbeitungsanlage-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-Refinery]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

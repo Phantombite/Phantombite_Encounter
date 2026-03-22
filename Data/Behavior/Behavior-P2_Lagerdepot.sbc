@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Behavior-P2_Lagerdepot</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [Triggers:PB-Trigger-P2_Lagerdepot-Warn-1km]
+        [Triggers:PB-Trigger-P2_Lagerdepot-Angriff-600m]
+        [Triggers:PB-Trigger-P2_Lagerdepot-Schaden]
+        [Triggers:PB-Trigger-P2_Lagerdepot-KampfEnde]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

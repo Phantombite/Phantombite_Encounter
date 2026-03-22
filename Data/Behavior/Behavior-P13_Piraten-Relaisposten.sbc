@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Behavior-P13_Piraten-Relaisposten</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [Triggers:PB-Trigger-P13_Piraten-Relaisposten-Angriff-600m]
+        [Triggers:PB-Trigger-P13_Piraten-Relaisposten-Schaden]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

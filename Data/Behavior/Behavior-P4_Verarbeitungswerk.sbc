@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Behavior-P4_Verarbeitungswerk</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [Triggers:PB-Trigger-P4_Verarbeitungswerk-Warn-1km]
+        [Triggers:PB-Trigger-P4_Verarbeitungswerk-Angriff-600m]
+        [Triggers:PB-Trigger-P4_Verarbeitungswerk-Schaden]
+        [Triggers:PB-Trigger-P4_Verarbeitungswerk-KampfEnde]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

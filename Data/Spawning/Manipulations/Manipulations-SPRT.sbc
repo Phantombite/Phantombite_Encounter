@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- P7: SmallCargo, Schliessfach, Arsenal, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P7_Feldforschungsposten-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P8: SmallCargo, Schliessfach, Assembler, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P8_Versandplattform-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P9: SmallCargo, Schliessfach, Arsenal, Assembler, FoodProcessor -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P9_RegionaleHauptquartier-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:VanillaStation-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Assembler]
+        [LootProfiles:VanillaStation-LP-FoodProcessor]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

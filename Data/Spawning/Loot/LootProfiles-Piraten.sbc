@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Piraten-LP-SmallCargo</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockSmallContainer]
+        [ContainerTypes:Piraten-CT-SmallCargo]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Piraten-LP-LargeCargo</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLargeIndustrialContainer]
+        [ContainerTypes:Piraten-CT-LargeCargo]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Piraten-LP-Arsenal</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLockerRoom]
+        [ContainerTypes:Piraten-CT-Arsenal]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Piraten-LP-WeaponRack</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockWeaponRack]
+        [ContainerTypes:Piraten-CT-WeaponRack]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

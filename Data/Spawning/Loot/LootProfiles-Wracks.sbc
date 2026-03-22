@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-SmallCargo</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockSmallContainer]
+        [ContainerTypes:Wrack-CT-SmallCargo]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-LargeCargo</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLargeIndustrialContainer]
+        [ContainerTypes:Wrack-CT-LargeCargo]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-Arsenal</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLockerRoom]
+        [ContainerTypes:Wrack-CT-Arsenal]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-SurvivalKit</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:SurvivalKitLarge]
+        [ContainerTypes:Wrack-CT-SurvivalKit]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-UniqueAlien</SubtypeId></Id>
+      <Description>
+
+        [MES Loot]
+
+        [BlockName:LargeBlockLockerRoom]
+        [ContainerTypes:Wrack-CT-UniqueAlien]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

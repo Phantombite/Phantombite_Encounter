@@ -1,0 +1,98 @@
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- SMALL INSTALLATION SPAWN PROFILE -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-SpawnConditions-InstallationSmall</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [PlanetaryInstallation:true]
+        [UseEncounterType:true]
+        [EncounterType:PlanetaryInstallation]
+
+        [SpawnInDirectionFromPlanet:true]
+        [MinimumPlanetSize:40000]
+        [MaximumPlanetSize:150000]
+
+        [UseEnvironmentRules:false]
+
+        [ThreatScore:0]
+        [ThreatScoreRandom:100]
+
+        [UseIgnoreCleanupRules:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- MEDIUM INSTALLATION SPAWN PROFILE -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-SpawnConditions-InstallationMedium</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [PlanetaryInstallation:true]
+        [UseEncounterType:true]
+        [EncounterType:PlanetaryInstallation]
+
+        [SpawnInDirectionFromPlanet:true]
+        [MinimumPlanetSize:50000]
+        [MaximumPlanetSize:150000]
+
+        [UseEnvironmentRules:false]
+
+        [ThreatScore:20]
+        [ThreatScoreRandom:80]
+
+        [UseIgnoreCleanupRules:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- LARGE INSTALLATION SPAWN PROFILE -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-SpawnConditions-InstallationLarge</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Spawn Conditions]
+
+        [PlanetaryInstallation:true]
+        [UseEncounterType:true]
+        [EncounterType:PlanetaryInstallation]
+
+        [SpawnInDirectionFromPlanet:true]
+        [MinimumPlanetSize:60000]
+        [MaximumPlanetSize:150000]
+
+        [UseEnvironmentRules:false]
+
+        [ThreatScore:40]
+        [ThreatScoreRandom:60]
+
+        [UseIgnoreCleanupRules:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

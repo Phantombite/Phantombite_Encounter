@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Chat-P28-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [Author:Logistikposten]
+        [Color:White]
+        [BroadcastRandomly:true]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Lieferung bestätigt.]
+        [ChatMessages:Einen schönen Tag noch.]
+        [ChatMessages:Empfänger gefunden.]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P28_Logistikposten-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:400]
+
+        [StartsReady:true]
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:300000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P28-Ambient]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P28-Ambient</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-P28-Ambient]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

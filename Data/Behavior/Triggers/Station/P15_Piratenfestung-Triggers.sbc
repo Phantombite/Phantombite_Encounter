@@ -1,0 +1,148 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Chat-P15-Warnung</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [Author:Piratenfestung]
+        [Color:Yellow]
+        [BroadcastRandomly:true]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Willkommen, Freund! Habt ihr etwas Wertvolles dabei?]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Chat-P15-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [Author:Piratenfestung]
+        [Color:Red]
+        [BroadcastRandomly:true]
+        [BroadcastChatType:Chat]
+
+        [ChatMessages:Feind gesichtet! Angreifen!]
+        [ChatMessages:Aufhören zu verstecken!]
+        [ChatMessages:Hauptverteidigung ausgefallen! Zerstreuen!]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P15_Piratenfestung-Warn-800m</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:800]
+
+        [StartsReady:true]
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:240000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P15-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P15_Piratenfestung-Angriff-400m</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:400]
+
+        [StartsReady:true]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P15-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P15_Piratenfestung-Schaden</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
+
+        [StartsReady:true]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P15-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P15-Warnung</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-P15-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P15-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-P15-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

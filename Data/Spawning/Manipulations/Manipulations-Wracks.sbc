@@ -1,0 +1,272 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- P16: SmallCargo, Arsenal, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P16_EingefrorenerRover-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P17: SmallCargo, Arsenal, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P17_VerrosteterRover-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P18: SmallCargo -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P18_EingefrorenerShuttle-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P19: SmallCargo -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P19_VerrosteterShuttle-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P20: SmallCargo, Arsenal -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P20_EingefrorenerErkundungsfahrer-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P21: SmallCargo, Arsenal -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P21_VerrosteterErkundungsfahrer-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P22: SmallCargo, LargeCargo, Arsenal, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P22_EingefrorenerKolonialschiff-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-LargeCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P23: SmallCargo, LargeCargo, Arsenal, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P23_VerrosteterKolonialschiff-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-LargeCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P26: LargeCargo, SurvivalKit -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P26_FrachterWrack-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-LargeCargo]
+        [LootProfiles:Wrack-LP-SurvivalKit]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P26b: LargeCargo, SurvivalKit -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P26b_FrachterWrack-Gefroren-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-LargeCargo]
+        [LootProfiles:Wrack-LP-SurvivalKit]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P27: SmallCargo, Arsenal, SurvivalKit -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P27_HandelskurierWrack-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:Wrack-LP-SurvivalKit]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P29: LargeCargo, Arsenal, Schliessfach -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P29_ZerstoerterHopper-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-LargeCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P24: Alien1 UnknownObject, Refinery, Schliessfach -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P24_Alien1-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-UniqueAlien]
+        [LootProfiles:VanillaStation-LP-Refinery]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P25: Alien2 UnknownObject, Refinery, Schliessfach -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P25_Alien2-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-UniqueAlien]
+        [LootProfiles:VanillaStation-LP-Refinery]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P28: Logistikposten SmallCargo, Arsenal, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P28_Logistikposten-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:Wrack-LP-Arsenal]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- P30: VerlassenesGehoeft SmallCargo, Schliessfach, Refinery -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P30_VerlassenesGehoeft-Loot</SubtypeId></Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [UseLootProfiles:true]
+        [ClearExistingContainerTypes:true]
+
+        [LootProfiles:Wrack-LP-SmallCargo]
+        [LootProfiles:VanillaStation-LP-Schliessfach]
+        [LootProfiles:VanillaStation-LP-Refinery]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,63 @@
+=== SpaceEncounter v11 — Spawn Befehle alle Stationen (REPARIERT) ===
+
+WICHTIG: 
+- Alle ManipulationProfiles korrekt zugewiesen
+- Alle Loot-Profile aktualisiert
+- P24, P25, P28, P30 repariert
+
+--- LAGER (P1-P6) ---
+/MES.SPI Dragnax-SpawnGroup-P1_Versorgungsposten
+/MES.SPI Dragnax-SpawnGroup-P2_Lagerdepot
+/MES.SPI Dragnax-SpawnGroup-P3_Fertigungsanlage
+/MES.SPI Dragnax-SpawnGroup-P4_Verarbeitungswerk
+/MES.SPI Dragnax-SpawnGroup-P5_Prospektion
+/MES.SPI Dragnax-SpawnGroup-P6_Erzverarbeitungsanlage
+
+--- SPRT (P7-P9) ---
+/MES.SPI Dragnax-SpawnGroup-P7_Feldforschungsposten
+/MES.SPI Dragnax-SpawnGroup-P8_Versandplattform
+/MES.SPI Dragnax-SpawnGroup-P9_RegionaleHauptquartier
+
+--- MILITAER (P10-P12) ---
+/MES.SPI Dragnax-SpawnGroup-P10_Militaerkaserne
+/MES.SPI Dragnax-SpawnGroup-P11_Vorposten-der-Vorhut
+/MES.SPI Dragnax-SpawnGroup-P12_Militaerwachturm
+
+--- PIRATEN (P13-P15) ---
+/MES.SPI Dragnax-SpawnGroup-P13_Piraten-Relaisposten
+/MES.SPI Dragnax-SpawnGroup-P14_Schrottplatz
+/MES.SPI Dragnax-SpawnGroup-P15_Piratenfestung
+
+--- WRACKS / CIVL (P16-P30) ---
+/MES.SPI Dragnax-SpawnGroup-P16_EingefrorenerRover
+/MES.SPI Dragnax-SpawnGroup-P17_VerrosteterRover
+/MES.SPI Dragnax-SpawnGroup-P18_EingefrorenerShuttle
+/MES.SPI Dragnax-SpawnGroup-P19_VerrosteterShuttle
+/MES.SPI Dragnax-SpawnGroup-P20_EingefrorenerErkundungsfahrer
+/MES.SPI Dragnax-SpawnGroup-P21_VerrosteterErkundungsfahrer
+/MES.SPI Dragnax-SpawnGroup-P22_EingefrorenerKolonialschiff
+/MES.SPI Dragnax-SpawnGroup-P23_VerrosteterKolonialschiff
+/MES.SPI Dragnax-SpawnGroup-P24_Alien1
+/MES.SPI Dragnax-SpawnGroup-P25_Alien2
+/MES.SPI Dragnax-SpawnGroup-P26_FrachterWrack
+/MES.SPI Dragnax-SpawnGroup-P26b_FrachterWrack-Gefroren
+/MES.SPI Dragnax-SpawnGroup-P27_HandelskurierWrack
+/MES.SPI Dragnax-SpawnGroup-P28_Logistikposten
+/MES.SPI Dragnax-SpawnGroup-P29_ZerstoerterHopper
+/MES.SPI Dragnax-SpawnGroup-P30_VerlassenesGehoeft
+
+=== Aktuelle Y-Offsets (Referenz fuer Anpassungen) ===
+P1  Y=8    P2  Y=10   P3  Y=10   P4  Y=10   P5  Y=10
+P6  Y=12   P7  Y=12   P8  Y=30   P9  Y=30
+P10 Y=80   P11 Y=18   P12 Y=30
+P13 Y=30   P14 Y=55   P15 Y=42
+P16 Y=8    P17 Y=8    P18 Y=8    P19 Y=8    P20 Y=8
+P21 Y=8    P22 Y=15   P23 Y=15   P24 Y=10   P25 Y=12
+P26 Y=8    P26b Y=8   P27 Y=12   P28 Y=42   P29 Y=8    P30 Y=12
+
+=== REPARIERTE FEHLER v11 ===
+✓ P24_Alien1: ManipulationProfile-Loot hinzugefügt
+✓ P25_Alien2: ManipulationProfile-Loot hinzugefügt
+✓ P28_Logistikposten: ManipulationProfile-Loot hinzugefügt
+✓ P30_VerlassenesGehoeft: ManipulationProfile-Loot hinzugefügt
+✓ Alle Loot-Definitionen in Manipulations-Wracks.sbc ergänzt

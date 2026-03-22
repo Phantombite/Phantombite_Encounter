@@ -1,0 +1,155 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger: Spieler nahe 1000m - Warnung -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P2_Lagerdepot-Warn-1km</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:1000]
+
+        [StartsReady:true]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:180000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P2_Lagerdepot-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Trigger: Spieler nahe 600m - Angriff -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P2_Lagerdepot-Angriff-600m</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:600]
+
+        [StartsReady:true]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P2_Lagerdepot-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Trigger: Schaden - Angriff -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P2_Lagerdepot-Schaden</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [ExcludedDamageTypes:Fire]
+
+        [StartsReady:true]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P2_Lagerdepot-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Trigger: Kein Ziel - Normal -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Trigger-P2_Lagerdepot-KampfEnde</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:NoTarget]
+
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:60000]
+        [MaxActions:-1]
+
+        [Actions:PB-Action-P2_Lagerdepot-Normal]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Action: Warnung -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P2_Lagerdepot-Warnung</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-Lager-Warnung]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Action: Angriff -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P2_Lagerdepot-Angriff</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:Zeitschaltblock Attac]
+
+        [UseChatBroadcast:true]
+        [ChatData:PB-Chat-Lager-Angriff]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Action: Normal -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>PB-Action-P2_Lagerdepot-Normal</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [TriggerTimerBlocks:true]
+        [TimerBlockNames:Zeitschaltblock Normal]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
