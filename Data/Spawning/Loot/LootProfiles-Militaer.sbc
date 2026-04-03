@@ -5,34 +5,35 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-SmallCargo</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockSmallContainer]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
         [ContainerTypes:Militaer-CT-SmallCargo]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
+    <!-- Arsenal deckt LockerRoom UND LockerRoomCorner ab -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-Arsenal</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
         [ContainerTypes:Militaer-CT-Arsenal]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Militaer-LP-WeaponRack</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockWeaponRack]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockWeaponRack]
         [ContainerTypes:Militaer-CT-WeaponRack]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
 

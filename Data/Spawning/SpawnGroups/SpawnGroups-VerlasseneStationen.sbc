@@ -11,6 +11,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
         [ReplenishSystems:true]
@@ -39,6 +41,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+        
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
         [ReplenishSystems:true]

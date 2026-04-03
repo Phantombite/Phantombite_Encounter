@@ -2,60 +2,50 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
-    <!-- P10: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor -->
+    <!-- P10: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor, Freight -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P10_Militaerkaserne-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
         [LootProfiles:Militaer-LP-SmallCargo]
         [LootProfiles:VanillaStation-LP-Schliessfach]
         [LootProfiles:Militaer-LP-Arsenal]
         [LootProfiles:Militaer-LP-WeaponRack]
         [LootProfiles:VanillaStation-LP-FoodProcessor]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 
-    <!-- P11: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor -->
+    <!-- P11: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor, Freight -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P11_Vorposten-der-Vorhut-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
         [LootProfiles:Militaer-LP-SmallCargo]
         [LootProfiles:VanillaStation-LP-Schliessfach]
         [LootProfiles:Militaer-LP-Arsenal]
         [LootProfiles:Militaer-LP-WeaponRack]
         [LootProfiles:VanillaStation-LP-FoodProcessor]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 
-    <!-- P12: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor -->
+    <!-- P12: SmallCargo, Schliessfach, Arsenal (deckt LockerRoomCorner ab), WeaponRack, Freight -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P12_Militaerwachturm-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
         [LootProfiles:Militaer-LP-SmallCargo]
         [LootProfiles:VanillaStation-LP-Schliessfach]
         [LootProfiles:Militaer-LP-Arsenal]
         [LootProfiles:Militaer-LP-WeaponRack]
-        [LootProfiles:VanillaStation-LP-FoodProcessor]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 

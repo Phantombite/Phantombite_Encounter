@@ -11,6 +11,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
         [FactionOverride:SPRT]
@@ -40,6 +42,8 @@
       <Description>
 
         [Modular Encounters SpawnGroup]
+
+        [PlanetBlacklist:Triton,Europa]
 
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
@@ -71,6 +75,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+        
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationLarge]
 
         [FactionOverride:SPRT]

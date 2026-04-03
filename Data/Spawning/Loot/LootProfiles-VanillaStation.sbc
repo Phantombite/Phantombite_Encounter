@@ -4,167 +4,147 @@
 
     <!-- ==================== SCHLIESSFACH ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-Schliessfach</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Schliessfach</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockers]
         [ContainerTypes:VanillaStation-CT-Schliessfach]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== ARSENAL ==================== -->
+    <!-- Deckt LockerRoom UND LockerRoomCorner ab -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-Arsenal</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Arsenal</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
         [ContainerTypes:VanillaStation-CT-Arsenal]
         [MinBlocks:1]
         [MaxBlocks:99]
+      </Description>
+    </EntityComponent>
 
+    <!-- ==================== WEAPON RACK ==================== -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-WeaponRack</SubtypeId></Id>
+      <Description>
+        [MES Loot]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockWeaponRack]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockWeaponRack]
+        [ContainerTypes:VanillaStation-CT-Arsenal]
+        [MinBlocks:1]
+        [MaxBlocks:99]
+      </Description>
+    </EntityComponent>
+
+    <!-- ==================== FREIGHT ==================== -->
+    <!-- NEU: Freight1/2/3 + alle Barrel-Typen -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Freight</SubtypeId></Id>
+      <Description>
+        [MES Loot]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/Freight1]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/Freight2]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/Freight3]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBarrel]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBarrelThree]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBarrelStack]
+        [ContainerTypes:VanillaStation-CT-Freight]
+        [MinBlocks:1]
+        [MaxBlocks:99]
+      </Description>
+    </EntityComponent>
+
+    <!-- ==================== CRYO ==================== -->
+    <!-- NEU: CryoRoom + CryoChamber -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Cryo</SubtypeId></Id>
+      <Description>
+        [MES Loot]
+        [ContainerBlockTypes:MyObjectBuilder_CryoChamber/LargeBlockCryoRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CryoChamber/LargeBlockCryoChamber]
+        [ContainerTypes:VanillaStation-CT-Cryo]
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
 
     <!-- ==================== SMALL CARGO ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-SmallCargo</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-SmallCargo</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
         [ContainerTypes:VanillaStation-CT-SmallCargo]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== LARGE CARGO ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-LargeCargo</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-LargeCargo</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeContainer]
         [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
         [ContainerTypes:VanillaStation-CT-LargeCargo]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== ASSEMBLER ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-Assembler</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Assembler</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_Assembler/BasicAssembler]
         [ContainerBlockTypes:MyObjectBuilder_Assembler/LargeAssembler]
         [ContainerBlockTypes:MyObjectBuilder_Assembler/LargeAssemblerIndustrial]
         [ContainerTypes:VanillaStation-CT-Assembler]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== REFINERY ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-Refinery</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Refinery</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_Refinery/LargeRefinery]
         [ContainerBlockTypes:MyObjectBuilder_Refinery/LargeRefineryIndustrial]
         [ContainerBlockTypes:MyObjectBuilder_Refinery/Blast Furnace]
         [ContainerTypes:VanillaStation-CT-Refinery]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== OXYGEN GENERATOR ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-OxyGen</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-OxyGen</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_OxygenGenerator/]
         [ContainerBlockTypes:MyObjectBuilder_OxygenGenerator/OxygenGeneratorSmall]
         [ContainerBlockTypes:MyObjectBuilder_OxygenGenerator/LargeBlockOxygenGeneratorLab]
         [ContainerTypes:VanillaStation-CT-OxyGen]
         [MinBlocks:1]
         [MaxBlocks:99]
-
-      </Description>
-    </EntityComponent>
-
-    <!-- ==================== WEAPON RACK ==================== -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-WeaponRack</SubtypeId>
-      </Id>
-      <Description>
-
-        [MES Loot]
-
-        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockWeaponRack]
-        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/SmallBlockWeaponRack]
-        [ContainerTypes:VanillaStation-CT-Arsenal]
-        [MinBlocks:1]
-        [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== MEDICAL ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-Medical</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-Medical</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_MedicalRoom/LargeMedicalRoom]
         [ContainerBlockTypes:MyObjectBuilder_MedicalRoom/LargeMedicalRoomReskin]
         [ContainerBlockTypes:MyObjectBuilder_SurvivalKit/SurvivalKitLarge]
@@ -173,62 +153,44 @@
         [ContainerTypes:VanillaStation-CT-Medical]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== FOOD PROCESSOR ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-FoodProcessor</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-FoodProcessor</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_Assembler/FoodProcessor]
+        [ContainerBlockTypes:MyObjectBuilder_Assembler/FoodDispenser]
         [ContainerTypes:VanillaStation-CT-FoodProcessor]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== ALGAE FARM ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-AlgaeFarm</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-AlgaeFarm</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_FunctionalBlock/LargeBlockAlgaeFarm]
         [ContainerBlockTypes:MyObjectBuilder_FunctionalBlock/LargeBlockAlgaeFarmReskin]
         [ContainerTypes:VanillaStation-CT-AlgaeFarm]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 
     <!-- ==================== FARM PLOT ==================== -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>VanillaStation-LP-FarmPlot</SubtypeId>
-      </Id>
+      <Id><TypeId>Inventory</TypeId><SubtypeId>VanillaStation-LP-FarmPlot</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
         [ContainerBlockTypes:MyObjectBuilder_FunctionalBlock/LargeBlockFarmPlot]
         [ContainerTypes:VanillaStation-CT-FarmPlot]
         [MinBlocks:1]
         [MaxBlocks:99]
-
       </Description>
     </EntityComponent>
 

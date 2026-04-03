@@ -11,6 +11,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [ReplenishSystems:true]
@@ -37,6 +39,8 @@
       <Description>
 
         [Modular Encounters SpawnGroup]
+
+        [PlanetBlacklist:Triton,Europa]
 
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
@@ -65,6 +69,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [ReplenishSystems:true]
@@ -92,6 +98,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
         [ReplenishSystems:true]
@@ -118,6 +126,8 @@
       <Description>
 
         [Modular Encounters SpawnGroup]
+
+        [PlanetBlacklist:Triton,Europa]
 
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationMedium]
 
@@ -147,6 +157,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [ReplenishSystems:true]
@@ -174,6 +186,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetBlacklist:Triton,Europa]
+        
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [ReplenishSystems:true]

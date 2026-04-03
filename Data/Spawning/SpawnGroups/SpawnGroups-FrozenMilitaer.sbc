@@ -11,6 +11,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetWhitelist:Triton,Europa]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [FactionOverride:SPRT]

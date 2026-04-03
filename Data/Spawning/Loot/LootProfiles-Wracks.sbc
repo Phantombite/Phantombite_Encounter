@@ -5,56 +5,59 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-SmallCargo</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockSmallContainer]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockSmallContainer]
         [ContainerTypes:Wrack-CT-SmallCargo]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-LargeCargo</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockLargeIndustrialContainer]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLargeIndustrialContainer]
         [ContainerTypes:Wrack-CT-LargeCargo]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
+    <!-- Arsenal deckt LockerRoom UND LockerRoomCorner ab -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-Arsenal</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
         [ContainerTypes:Wrack-CT-Arsenal]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-SurvivalKit</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:SurvivalKitLarge]
+        [ContainerBlockTypes:MyObjectBuilder_SurvivalKit/SurvivalKitLarge]
+        [ContainerBlockTypes:MyObjectBuilder_SurvivalKit/SurvivalKit]
         [ContainerTypes:Wrack-CT-SurvivalKit]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>Wrack-LP-UniqueAlien</SubtypeId></Id>
       <Description>
-
         [MES Loot]
-
-        [BlockName:LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoom]
+        [ContainerBlockTypes:MyObjectBuilder_CargoContainer/LargeBlockLockerRoomCorner]
         [ContainerTypes:Wrack-CT-UniqueAlien]
-
+        [MinBlocks:1]
+        [MaxBlocks:99]
       </Description>
     </EntityComponent>
 

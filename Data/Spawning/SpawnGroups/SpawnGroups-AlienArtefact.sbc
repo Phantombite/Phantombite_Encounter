@@ -11,6 +11,8 @@
 
         [Modular Encounters SpawnGroup]
 
+        [PlanetWhitelist:Sulvax]
+
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 
         [ReplenishSystems:true]
@@ -37,6 +39,8 @@
       <Description>
 
         [Modular Encounters SpawnGroup]
+
+        [PlanetWhitelist:Sulvax]
 
         [SpawnConditionGroups:MES-SpawnConditionsGroup-InstallationSmall]
 

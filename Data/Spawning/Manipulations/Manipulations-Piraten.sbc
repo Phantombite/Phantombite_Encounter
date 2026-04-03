@@ -2,57 +2,45 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
-    <!-- P13: SmallCargo, Schliessfach, Arsenal, Assembler -->
+    <!-- P13: Schliessfach, Arsenal, Assembler, Freight -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P13_Piraten-Relaisposten-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
-        [LootProfiles:Piraten-LP-SmallCargo]
         [LootProfiles:VanillaStation-LP-Schliessfach]
         [LootProfiles:Piraten-LP-Arsenal]
         [LootProfiles:VanillaStation-LP-Assembler]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 
-    <!-- P14: LargeCargo, Arsenal, WeaponRack -->
+    <!-- P14: Arsenal, WeaponRack, Freight - KEIN Schliessfach (keine Lockers im Prefab) -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P14_Schrottplatz-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
-        [LootProfiles:Piraten-LP-LargeCargo]
         [LootProfiles:Piraten-LP-Arsenal]
         [LootProfiles:Piraten-LP-WeaponRack]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 
-    <!-- P15: SmallCargo, Schliessfach, Arsenal, WeaponRack, FoodProcessor -->
+    <!-- P15: Schliessfach, Arsenal, WeaponRack, FoodProcessor, Freight -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id><TypeId>Inventory</TypeId><SubtypeId>PB-Manipulation-P15_Piratenfestung-Loot</SubtypeId></Id>
       <Description>
-
         [MES Manipulation]
-
         [UseLootProfiles:true]
         [ClearExistingContainerTypes:true]
-
-        [LootProfiles:Piraten-LP-SmallCargo]
         [LootProfiles:VanillaStation-LP-Schliessfach]
         [LootProfiles:Piraten-LP-Arsenal]
         [LootProfiles:Piraten-LP-WeaponRack]
         [LootProfiles:VanillaStation-LP-FoodProcessor]
-
+        [LootProfiles:VanillaStation-LP-Freight]
       </Description>
     </EntityComponent>
 
