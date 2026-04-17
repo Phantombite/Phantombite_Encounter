@@ -34,7 +34,7 @@
       </Prefabs>
     </SpawnGroup>
 
-    <SpawnGroup>
+<!--  <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>PB-SpawnGroup-P2_Lagerdepot</SubtypeId>
@@ -64,7 +64,7 @@
           <Behaviour>PB-Behavior-P2_Lagerdepot</Behaviour>
         </Prefab>
       </Prefabs>
-    </SpawnGroup>
+    </SpawnGroup> -->
 
     <SpawnGroup>
       <Id>
@@ -98,7 +98,7 @@
       </Prefabs>
     </SpawnGroup>
 
-    <SpawnGroup>
+<!--  <SpawnGroup>
       <Id>
         <TypeId>SpawnGroupDefinition</TypeId>
         <SubtypeId>PB-SpawnGroup-P4_Verarbeitungswerk</SubtypeId>
@@ -128,7 +128,7 @@
           <Behaviour>PB-Behavior-P4_Verarbeitungswerk</Behaviour>
         </Prefab>
       </Prefabs>
-    </SpawnGroup>
+    </SpawnGroup> -->
 
     <SpawnGroup>
       <Id>
